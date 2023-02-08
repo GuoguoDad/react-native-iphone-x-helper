@@ -1,6 +1,6 @@
 {
   "name": "@liuhui1990/react-native-iphone-x-helper",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A library to help you design your react-native app for the iPhone X",
   "main": "index.js",
   "types": "index.d.ts",

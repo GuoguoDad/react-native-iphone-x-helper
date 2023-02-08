@@ -1,4 +1,4 @@
-# @liuhui/react-native-iphone-x-helper
+# @liuhui1990/react-native-iphone-x-helper
 A library to help you design your react-native app for notched iPhones.
 
 ## Installing ##
