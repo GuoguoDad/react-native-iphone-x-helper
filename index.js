@@ -1,5 +1,10 @@
 import { Dimensions, Platform, StatusBar } from 'react-native';
 
+/**
+ * iphone14 Pro        852 x 393
+ * iphone14 Pro Max    932 x 430
+ * @returns {boolean}
+ */
 export function isIphoneX() {
     const dimen = Dimensions.get('window');
     return (
@@ -9,8 +14,10 @@ export function isIphoneX() {
         ((dimen.height === 780 || dimen.width === 780)
           || (dimen.height === 812 || dimen.width === 812)
           || (dimen.height === 844 || dimen.width === 844)
+          || (dimen.height === 852 || dimen.width === 852)
           || (dimen.height === 896 || dimen.width === 896)
-          || (dimen.height === 926 || dimen.width === 926))
+          || (dimen.height === 926 || dimen.width === 926)
+          || (dimen.height === 932 || dimen.width === 932))
     );
 }
 
